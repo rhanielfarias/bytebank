@@ -10,5 +10,9 @@ primeiraConta.nomeDoTitular = "Rhaniel";
         segundaConta.saldo = 500;
         System.out.println("Na conta de " + segundaConta.nomeDoTitular);
         System.out.println(" Tem guardado no saldo o valor de R$ " + segundaConta.saldo);
+        Conta thiago = new Conta();
+        thiago.depositar(1000);
+        thiago.saque(400);
+
     }
 }
